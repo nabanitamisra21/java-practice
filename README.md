@@ -1,25 +1,36 @@
-# Automation Framework (Selenium + TestNG)
+# Selenium Automation Framework (Java + TestNG)
 
-## Tech Stack
+## 🚀 Features
+
+* Page Object Model (POM)
+* Base Test Setup
+* WebDriverManager Integration
+* Explicit Waits
+* Assertions
+
+## 🧪 Test Scenarios
+
+* Open Google
+* Validate page title
+* Perform search
+
+## 🛠 Tech Stack
 
 * Java
 * Selenium WebDriver
 * TestNG
 * Maven
-* WebDriverManager
 
-## Features
+## 📂 Project Structure
 
-* Base test setup
-* TestNG annotations
-* Scalable structure
+* base → setup/teardown
+* pages → UI actions
+* tests → test cases
 
-## How to Run
+## ▶️ Run Tests
 
-1. Clone repo
-2. Open in IntelliJ
-3. Run TestRun.java
+Right-click TestRun.java → Run
 
-## Author
+## 👩‍💻 Author
 
 Nabanita
