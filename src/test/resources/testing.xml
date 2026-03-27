@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite">
+
+    <test name="Search Tests">
+        <classes>
+            <class name="com.qa.tests.search.GoogleSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Validation Tests">
+        <classes>
+            <class name="com.qa.tests.validation.GoogleTitleTest"/>
+        </classes>
+    </test>
+
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.qa.tests.regression.GoogleRegressionTest"/>
+        </classes>
+    </test>
+
+</suite>
